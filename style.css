@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider-image {
+    display: none;
+}
+
+.slider-image.active {
+    display: inline-block;
+}
+
+#slider-dots {
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#slider-dots>.dot {
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#slider-dots>.dot.active {
+    background-color: blue;
+}
